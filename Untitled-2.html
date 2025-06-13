@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAY Emlak | Premium Emlak Çözümleri</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animasyon -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Özel CSS -->
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">ELITE<span>EMLAK</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#properties">Emlaklar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Hizmetler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#agents">Danışmanlar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">İletişim</a>
+                    </li>
+                </ul>
+                <a href="#contact" class="btn btn-primary ms-lg-3">Ücretsiz Danışmanlık</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Hayalinizdeki Mülkü Bulun</h1>
+                        <p class="hero-subtitle">Premium emlak çözümleriyle hayatınıza değer katıyoruz. Uzman ekibimizle ihtiyaçlarınıza özel çözümler sunuyoruz.</p>
+                        <div class="d-flex gap-3">
+                            <a href="#properties" class="btn btn-primary">Emlakları Keşfet</a>
+                            <a href="#contact" class="btn btn-outline-light">İletişime Geç</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="search-box">
+                        <h3 class="search-title">Arama Yapın</h3>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <select class="form-select">
+                                        <option selected>İşlem Türü</option>
+                                        <option>Satılık</option>
+                                        <option>Kiralık</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <select class="form-select">
+                                        <option selected>Mülk Türü</option>
+                                        <option>Daire</option>
+                                        <option>Villa</option>
+                                        <option>Müstakil Ev</option>
+                                        <option>İş Yeri</option>
+                                        <option>Arsa</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <select class="form-select">
+                                <option selected>Lokasyon</option>
+                                <option>İstanbul</option>
+                                <option>Ankara</option>
+                                <option>İzmir</option>
+                                <option>Bursa</option>
+                                <option>Antalya</option>
+                            </select>
+                            <div class="row g-2">
+                                <div class="col-md-6">
+                                    <input type="number" class="form-control" placeholder="Min Fiyat">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="number" class="form-control" placeholder="Max Fiyat">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Arama Yap <i class="fas fa-search ms-2"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Öne Çıkan Emlaklar -->
+    <section class="section" id="properties">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Öne Çıkan Emlaklar</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">En çok ilgi gören seçkin mülklerimizi keşfedin</p>
+            
+            <div class="row">
+                <!-- Emlak 1 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="property-card">
+                        <span class="badge-featured">ÖNE ÇIKAN</span>
+                        <span class="badge-new">YENİ</span>
+                        <div class="property-img-container">
+                            <img src="resimler/ev1.avif" class="property-card-img" alt="Modern Daire">
+                        </div>
+                        <div class="property-card-body">
+                            <p class="property-location"><i class="fas fa-map-marker-alt text-danger me-2"></i> İstanbul, Beşiktaş</p>
+                            <h3 class="property-price">4.250.000 ₺</h3>
+                            <h4 class="property-title">Lüks Deniz Manzaralı Daire</h4>
+                            <p class="property-description">Boğaz manzaralı, ferah ve modern tasarımlı 3+1 daire. Geniş yaşam alanları ve yüksek kaliteli malzemelerle donatılmıştır.</p>
+                            
+                            <div class="property-status">
+                                <span class="status-item"><i class="fas fa-home"></i> Daire</span>
+                                <span class="status-item"><i class="fas fa-tag"></i> Satılık</span>
+                                <span class="status-item"><i class="fas fa-calendar-alt"></i> 2023</span>
+                            </div>
+                            
+                            <div class="property-features">
+                                <div class="feature-item">
+                                    <i class="fas fa-bed"></i>
+                                    <span>3 Yatak</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-bath"></i>
+                                    <span>2 Banyo</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-vector-square"></i>
+                                    <span>180m²</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btn-details" data-bs-toggle="modal" data-bs-target="#propertyModal1">Detayları Gör</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Emlak 2 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="property-card">
+                        <span class="badge-featured">ÖNE ÇIKAN</span>
+                        <div class="property-img-container">
+                            <img src="resimler/ev2.avif" class="property-card-img" alt="Modern Villa">
+                        </div>
+                        <div class="property-card-body">
+                            <p class="property-location"><i class="fas fa-map-marker-alt text-danger me-2"></i> İzmir, Çeşme</p>
+                            <h3 class="property-price">8.750.000 ₺</h3>
+                            <h4 class="property-title">Deniz Kenarında Modern Villa</h4>
+                            <p class="property-description">Çeşme'nin en gözde bölgesinde, denize sıfır konumda lüks villa. Özel havuz, geniş bahçe ve modern mimari.</p>
+                            
+                            <div class="property-status">
+                                <span class="status-item"><i class="fas fa-home"></i> Villa</span>
+                                <span class="status-item"><i class="fas fa-tag"></i> Satılık</span>
+                                <span class="status-item"><i class="fas fa-calendar-alt"></i> 2022</span>
+                            </div>
+                            
+                            <div class="property-features">
+                                <div class="feature-item">
+                                    <i class="fas fa-bed"></i>
+                                    <span>5 Yatak</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-bath"></i>
+                                    <span>4 Banyo</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-vector-square"></i>
+                                    <span>420m²</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btn-details" data-bs-toggle="modal" data-bs-target="#propertyModal2">Detayları Gör</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Emlak 3 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="property-card">
+                        <span class="badge-new">YENİ</span>
+                        <div class="property-img-container">
+                            <img src="resimler/ev3.avif" class="property-card-img" alt="Stüdyo Daire">
+                        </div>
+                        <div class="property-card-body">
+                            <p class="property-location"><i class="fas fa-map-marker-alt text-danger me-2"></i> İstanbul, Kadıköy</p>
+                            <h3 class="property-price">1.850.000 ₺</h3>
+                            <h4 class="property-title">Merkezi Stüdyo Daire</h4>
+                            <p class="property-description">Kadıköy'ün kalbinde, ulaşımın merkezinde modern stüdyo daire. Tam donanımlı mutfak ve ferah yaşam alanı.</p>
+                            
+                            <div class="property-status">
+                                <span class="status-item"><i class="fas fa-home"></i> Daire</span>
+                                <span class="status-item"><i class="fas fa-tag"></i> Satılık</span>
+                                <span class="status-item"><i class="fas fa-calendar-alt"></i> 2023</span>
+                            </div>
+                            
+                            <div class="property-features">
+                                <div class="feature-item">
+                                    <i class="fas fa-bed"></i>
+                                    <span>1 Yatak</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-bath"></i>
+                                    <span>1 Banyo</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-vector-square"></i>
+                                    <span>65m²</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btn-details" data-bs-toggle="modal" data-bs-target="#propertyModal3">Detayları Gör</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5" data-aos="fade-up">
+                <a href="#" class="btn btn-outline-primary btn-lg">Daha Fazla Göster <i class="fas fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hizmetlerimiz -->
+    <section class="section bg-light" id="services">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Hizmetlerimiz</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Sizin için sunduğumuz premium emlak çözümleri</p>
+            
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3 class="feature-title">Konut Satışı</h3>
+                        <p class="feature-description">Daire, villa, müstakil ev gibi tüm konut tiplerinde en uygun seçeneklerle hizmetinizdeyiz.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3 class="feature-title">Ticari Emlak</h3>
+                        <p class="feature-description">İş yeri, ofis, mağaza gibi ticari emlak çözümlerinde uzman danışmanlık.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-sign"></i>
+                        </div>
+                        <h3 class="feature-title">Emlak Değerleme</h3>
+                        <p class="feature-description">Profesyonel değerleme uzmanlarımızla mülkünüzün gerçek piyasa değerini belirliyoruz.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-hand-holding-usd"></i>
+                        </div>
+                        <h3 class="feature-title">Kredi Danışmanlığı</h3>
+                        <p class="feature-description">Bankalarla olan anlaşmalarımız sayesinde en uygun kredi seçeneklerini sunuyoruz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İstatistikler -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-3" data-aos="fade-up">
+                    <div class="stat-item">
+                        <div class="stat-number" style="font-weight: bold; font-size: 70px;">20+</div>
+                        <div class="stat-label"style="font-weight: bold; font-size: 30px;">Yıllık Deneyim</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-item">
+                        <div class="stat-number"style="font-weight: bold; font-size: 70px;">3500+</div>
+                        <div class="stat-label"style="font-weight: bold; font-size: 30px;">Mutlu Müşteri</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-item">
+                        <div class="stat-number"style="font-weight: bold; font-size: 70px;">750+</div>
+                        <div class="stat-label"style="font-weight: bold; font-size: 30px;">Tamamlanan Proje</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-item">
+                        <div class="stat-number"style="font-weight: bold; font-size: 70px;">24/7</div>
+                        <div class="stat-label"style="font-weight: bold; font-size: 30px;">Müşteri Desteği</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emlak Danışmanları -->
+    <section class="section" id="agents">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Emlak Danışmanlarımız</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Alanında uzman emlak danışmanlarımız size en uygun seçenekleri sunar</p>
+            
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="agent-card">
+                        <img src="resimler/images.jpg" class="agent-img" alt="Danışman">
+                        <div class="agent-info">
+                            <h3 class="agent-name">lütfican görmez</h3>
+                            <p class="agent-position">Kıdemli Emlak Danışmanı</p>
+                            <div class="agent-contact">
+                                <p><i class="fas fa-phone me-2"></i> (555) 123 45 67</p>
+                                <p><i class="fas fa-envelope me-2"></i> lütfü@eliteemlak.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="agent-card">
+                        <img src="resimler/businessman-holding-little-house_1368-8848.avif" class="agent-img" alt="Danışman" style="max-width: 225px; max-height: 265px;">
+                        <div class="agent-info">
+                            <h3 class="agent-name">selahattin özdemir</h3>
+                            <p class="agent-position">Lüks Emlak Uzmanı</p>
+                            <div class="agent-contact">
+                                <p><i class="fas fa-phone me-2"></i> (555) 234 56 78</p>
+                                <p><i class="fas fa-envelope me-2"></i> selocan@eliteemlak.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="agent-card">
+                        <img src="resimler/pngtree-smiling-realtor-hold-house-miniature-and-key-png-image_10117516.png" class="agent-img" alt="Danışman" style="max-height: 241px;">
+                        <div class="agent-info">
+                            <h3 class="agent-name">muhammed ali yurdakul</h3>
+                            <p class="agent-position">Ticari Emlak Uzmanı</p>
+                            <div class="agent-contact">
+                                <p><i class="fas fa-phone me-2"></i> (555) 345 67 89</p>
+                                <p><i class="fas fa-envelope me-2"></i> muhammed@eliteemlak.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="agent-card">
+                        <img src="resimler/adam.jpeg" class="agent-img" alt="Danışman">
+                        <div class="agent-info">
+                            <h3 class="agent-name">yunus emre koç</h3>
+                            <p class="agent-position">Uluslararası Emlak Danışmanı</p>
+                            <div class="agent-contact">
+                                <p><i class="fas fa-phone me-2"></i> (555) 456 78 90</p>
+                                <p><i class="fas fa-envelope me-2"></i> yunus@eliteemlak.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Müşteri Yorumları -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Müşterilerimiz Ne Diyor?</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Hizmet kalitemiz hakkında müşterilerimizin görüşleri</p>
+            
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200" >
+                    <div class="testimonial-card">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-quote">" Danışmanları çok profesyonel ve ilgiliydi. Tüm süreç boyunca bize rehberlik ettiler. Kesinlikle tavsiye ederim."</p>
+                        <div class="testimonial-author">
+                            <img src="resimler/anonim.png" class="testimonial-img" alt="Müşteri">
+                            <div class="author-info">
+                                <h5>Ayşe K.</h5>
+                                <p>İstanbul</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300" >
+                    <div class="testimonial-card">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="testimonial-quote">"İş yerimi satmak için başvurduğumda çok hızlı ve verimli bir süreç yaşadım. Piyasa analizleri çok doğruydu. Ekip gerçekten işini çok iyi biliyor."</p>
+                        <div class="testimonial-author">
+                            <img src="resimler/anonim.png" class="testimonial-img" alt="Müşteri">
+                            <div class="author-info">
+                                <h5>Mehmet T.</h5>
+                                <p>Ankara</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="testimonial-card">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-quote">"Yurt dışından taşınırken çok yardımcı oldular. Tüm evrak işlerini hallettiler, bize uygun birçok seçenek sundular. Çok memnun kaldık."</p>
+                        <div class="testimonial-author">
+                            <img src="resimler/anonim.png" class="testimonial-img" alt="Müşteri">
+                            <div class="author-info">
+                                <h5>Zeynep A.</h5>
+                                <p>İzmir</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bülten Aboneliği -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-container" data-aos="fade-up">
+                <h2 class="newsletter-title">E-Bültenimize Abone Olun</h2>
+                <p class="newsletter-description">Yeni emlaklarımızdan, kampanyalarımızdan ve sektör haberlerinden haberdar olmak için e-posta listemize kaydolun.</p>
+                <form class="newsletter-form">
+                    <input type="email" class="form-control newsletter-input" placeholder="E-posta adresiniz">
+                    <button type="submit" class="btn btn-primary newsletter-btn">Abone Ol</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- İletişim -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">İletişim</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Bize ulaşın, uzman ekibimiz sizinle iletişime geçsin</p>
+            
+            <div class="row">
+                <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+                    <div class="card h-100">
+                        <div class="card-body p-5">
+                            <h3 class="mb-4">İletişim Bilgileri</h3>
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <i class="fas fa-map-marker-alt text-danger me-2"></i>
+                                    <strong>Adres:</strong> Levent Mah. No:10, Beşiktaş/İstanbul
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-phone text-danger me-2"></i>
+                                    <strong>Telefon:</strong> (0212) 123 45 67
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-envelope text-danger me-2"></i>
+                                    <strong>E-posta:</strong> info@eliteemlak.com
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-clock text-danger me-2"></i>
+                                    <strong>Çalışma Saatleri:</strong> Pzt-Cmt: 09:00-18:00
+                                </li>
+                            </ul>
+                            <div class="mt-4">
+                                <a href="#" class="btn btn-outline-secondary me-2"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="btn btn-outline-secondary me-2"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="btn btn-outline-secondary me-2"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="btn btn-outline-secondary"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="card h-100">
+                        <div class="card-body p-5">
+                            <h3 class="mb-4">Mesaj Gönderin</h3>
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <input type="text" class="form-control" placeholder="Adınız" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="text" class="form-control" placeholder="Soyadınız" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="E-posta Adresiniz" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="tel" class="form-control" placeholder="Telefon Numaranız">
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control" rows="4" placeholder="Mesajınız" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Mesaj Gönder</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h3 class="footer-logo">ELITE<span>EMLAK</span></h3>
+                    <p class="footer-about">20 yılı aşkın tecrübemizle emlak sektöründe güvenilir çözümler sunuyoruz. Müşteri memnuniyeti odaklı hizmet anlayışımızla yanınızdayız.</p>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
+                    <h4 class="footer-title">Hızlı Linkler</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Ana Sayfa</a></li>
+                        <li><a href="#properties">Emlaklar</a></li>
+                        <li><a href="#services">Hizmetler</a></li>
+                        <li><a href="#agents">Danışmanlar</a></li>
+                        <li><a href="#contact">İletişim</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                    <h4 class="footer-title">Emlak Türleri</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Satılık Daireler</a></li>
+                        <li><a href="#">Kiralık Daireler</a></li>
+                        <li><a href="#">Villalar</a></li>
+                        <li><a href="#">İş Yerleri</a></li>
+                        <li><a href="#">Arsalar</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3">
+                    <h4 class="footer-title">İletişim</h4>
+                    <ul class="footer-contact-info">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Levent Mah. No:10, Beşiktaş/İstanbul</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>(0212) 123 45 67</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>info@eliteemlak.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <p class="mb-0">&copy; 2023 Elite Emlak. Tüm hakları saklıdır.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <a href="#" class="text-white me-3">Gizlilik Politikası</a>
+                        <a href="#" class="text-white">Kullanım Şartları</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Property Details Modal 1 -->
+    <div class="modal fade property-modal" id="propertyModal1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <div class="row g-0">
+                        <div class="col-lg-8">
+                            <div class="property-gallery">
+                                <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Property Image">
+                                <div class="gallery-controls">
+                                    <div class="gallery-btn"><i class="fas fa-chevron-left"></i></div>
+                                    <div class="gallery-btn"><i class="fas fa-chevron-right"></i></div>
+                                </div>
+                            </div>
+                            <div class="property-details">
+                                <h3 class="property-details-title">Lüks Deniz Manzaralı Daire</h3>
+                                <p class="property-details-price">4.250.000 ₺</p>
+                                <p class="property-details-location"><i class="fas fa-map-marker-alt text-danger me-2"></i> İstanbul, Beşiktaş</p>
+                                
+                                <p class="property-details-description">
+                                    Boğaz manzaralı, ferah ve modern tasarımlı 3+1 daire. Geniş yaşam alanları ve yüksek kaliteli malzemelerle donatılmıştır. 
+                                    Aydınlık ve ferah mekanlar, geniş balkonlar ve lüks detaylarla donatılmış bu dairede günlük yaşamınız konforlu geçecek.
+                                    <br><br>
+                                    Dairede açık mutfak, geniş oturma odası, 3 yatak odası ve 2 banyo bulunmaktadır. Binada güvenlik, asansör ve otopark gibi 
+                                    tüm modern konforlar mevcuttur. Ulaşım açısından merkezi bir konumda yer almaktadır.
+                                </p>
+                                
+                                <h5 class="mt-4 mb-3">Özellikler</h5>
+                                <div class="details-features">
+                                    <div class="details-feature">
+                                        <i class="fas fa-bed"></i>
+                                        <span>3 Yatak Odası</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-bath"></i>
+                                        <span>2 Banyo</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-ruler-combined"></i>
+                                        <span>180 m²</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-building"></i>
+                                        <span>5. Kat</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-car"></i>
+                                        <span>Otopark</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-swimming-pool"></i>
+                                        <span>Havuz</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-warehouse"></i>
+                                        <span>Depo</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-umbrella-beach"></i>
+                                        <span>Deniz Manzara</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="amenities-section">
+                                    <h5 class="mb-3">Konfor & Donanım</h5>
+                                    <div class="amenities-list">
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Klima</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Merkezi Isıtma</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Akıllı Ev Sistemi</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Güvenlik Sistemi</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Beyaz Eşya</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Mobilya (Opsiyonel)</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Fiber İnternet</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Uydu Yayını</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="property-sidebar">
+                                <h4 class="sidebar-title">Danışman Bilgisi</h4>
+                                <div class="agent-card-sidebar">
+                                    <img src="resimler/adam.jpeg" class="agent-img-sidebar" alt="Danışman">
+                                    <div class="agent-info-sidebar">
+                                        <h5>Ahmet Yılmaz</h5>
+                                        <p>Kıdemli Emlak Danışmanı</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-info mb-4">
+                                    <p><i class="fas fa-phone me-2"></i> (555) 123 45 67</p>
+                                    <p><i class="fas fa-envelope me-2"></i> ahmet@eliteemlak.com</p>
+                                    <p><i class="fas fa-clock me-2"></i> 7/24 Ulaşılabilir</p>
+                                </div>
+                                
+                                <h4 class="sidebar-title">İletişim Formu</h4>
+                                <form class="contact-form">
+                                    <input type="text" class="form-control" placeholder="Adınız" required>
+                                    <input type="email" class="form-control" placeholder="E-posta Adresiniz" required>
+                                    <input type="tel" class="form-control" placeholder="Telefon Numaranız">
+                                    <textarea class="form-control" rows="3" placeholder="Mesajınız"></textarea>
+                                    <button type="submit" class="btn btn-primary w-100">Mesaj Gönder</button>
+                                </form>
+                                
+                                <div class="mt-4">
+                                    <h5 class="sidebar-title">Finansman Seçenekleri</h5>
+                                    <div class="finance-options">
+                                        <div class="finance-item mb-2">
+                                            <span class="d-block fw-bold">Peşin Fiyat:</span>
+                                            <span>4.250.000 ₺</span>
+                                        </div>
+                                        <div class="finance-item mb-2">
+                                            <span class="d-block fw-bold">Kredi Seçenekleri:</span>
+                                            <span>%70 Kredi Desteği</span>
+                                        </div>
+                                        <div class="finance-item">
+                                            <span class="d-block fw-bold">Takas:</span>
+                                            <span>Mümkün</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Property Details Modal 2 -->
+    <div class="modal fade property-modal" id="propertyModal2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <div class="row g-0">
+                        <div class="col-lg-8">
+                            <div class="property-gallery">
+                                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Property Image">
+                                <div class="gallery-controls">
+                                    <div class="gallery-btn"><i class="fas fa-chevron-left"></i></div>
+                                    <div class="gallery-btn"><i class="fas fa-chevron-right"></i></div>
+                                </div>
+                            </div>
+                            <div class="property-details">
+                                <h3 class="property-details-title">Deniz Kenarında Modern Villa</h3>
+                                <p class="property-details-price">8.750.000 ₺</p>
+                                <p class="property-details-location"><i class="fas fa-map-marker-alt text-danger me-2"></i> İzmir, Çeşme</p>
+                                
+                                <p class="property-details-description">
+                                    Çeşme'nin en gözde bölgesinde, denize sıfır konumda lüks villa. 420m² kullanım alanı, 1000m² bahçe ve özel havuzuyla 
+                                    eşsiz bir yaşam sunmaktadır. Modern mimarisi ve yüksek kaliteli malzemeleriyle dikkat çeken bu villa, 5 yatak odası, 
+                                    4 banyo, geniş yaşam alanları ve açık mutfağa sahiptir.
+                                    <br><br>
+                                    Villa, güneş enerjisi sistemi, akıllı ev teknolojileri, merkezi klima ve güvenlik sistemi gibi birçok konforu 
+                                    bünyesinde barındırmaktadır. Bahçesinde özel barbekü alanı ve otopark bulunmaktadır.
+                                </p>
+                                
+                                <h5 class="mt-4 mb-3">Özellikler</h5>
+                                <div class="details-features">
+                                    <div class="details-feature">
+                                        <i class="fas fa-bed"></i>
+                                        <span>5 Yatak Odası</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-bath"></i>
+                                        <span>4 Banyo</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-ruler-combined"></i>
+                                        <span>420 m²</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-home"></i>
+                                        <span>2 Katlı</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-umbrella-beach"></i>
+                                        <span>Deniz Manzara</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-swimming-pool"></i>
+                                        <span>Özel Havuz</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-tree"></i>
+                                        <span>1000m² Bahçe</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-solar-panel"></i>
+                                        <span>Güneş Enerjisi</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="amenities-section">
+                                    <h5 class="mb-3">Konfor & Donanım</h5>
+                                    <div class="amenities-list">
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Akıllı Ev Sistemi</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Merkezi Klima</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Güvenlik Sistemi</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Beyaz Eşya</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Mobilya (Opsiyonel)</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Fiber İnternet</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Barbekü Alanı</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Otopark (4 Araç)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="property-sidebar">
+                                <h4 class="sidebar-title">Danışman Bilgisi</h4>
+                                <div class="agent-card-sidebar">
+                                    <img src="resimler/businessman-holding-little-house_1368-8848.avif" class="agent-img-sidebar" alt="Danışman">
+                                    <div class="agent-info-sidebar">
+                                        <h5>enes tanrıkulu</h5>
+                                        <p>Lüks Emlak Uzmanı</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-info mb-4">
+                                    <p><i class="fas fa-phone me-2"></i> (555) 234 56 78</p>
+                                    <p><i class="fas fa-envelope me-2"></i> enes@eliteemlak.com</p>
+                                    <p><i class="fas fa-clock me-2"></i> 7/24 Ulaşılabilir</p>
+                                </div>
+                                
+                                <h4 class="sidebar-title">İletişim Formu</h4>
+                                <form class="contact-form">
+                                    <input type="text" class="form-control" placeholder="Adınız" required>
+                                    <input type="email" class="form-control" placeholder="E-posta Adresiniz" required>
+                                    <input type="tel" class="form-control" placeholder="Telefon Numaranız">
+                                    <textarea class="form-control" rows="3" placeholder="Mesajınız"></textarea>
+                                    <button type="submit" class="btn btn-primary w-100">Mesaj Gönder</button>
+                                </form>
+                                
+                                <div class="mt-4">
+                                    <h5 class="sidebar-title">Finansman Seçenekleri</h5>
+                                    <div class="finance-options">
+                                        <div class="finance-item mb-2">
+                                            <span class="d-block fw-bold">Peşin Fiyat:</span>
+                                            <span>8.750.000 ₺</span>
+                                        </div>
+                                        <div class="finance-item mb-2">
+                                            <span class="d-block fw-bold">Kredi Seçenekleri:</span>
+                                            <span>%60 Kredi Desteği</span>
+                                        </div>
+                                        <div class="finance-item">
+                                            <span class="d-block fw-bold">Takas:</span>
+                                            <span>Mümkün</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Property Details Modal 3 -->
+    <div class="modal fade property-modal" id="propertyModal3" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <div class="row g-0">
+                        <div class="col-lg-8">
+                            <div class="property-gallery">
+                                <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Property Image">
+                                <div class="gallery-controls">
+                                    <div class="gallery-btn"><i class="fas fa-chevron-left"></i></div>
+                                    <div class="gallery-btn"><i class="fas fa-chevron-right"></i></div>
+                                </div>
+                            </div>
+                            <div class="property-details">
+                                <h3 class="property-details-title">Merkezi Stüdyo Daire</h3>
+                                <p class="property-details-price">1.850.000 ₺</p>
+                                <p class="property-details-location"><i class="fas fa-map-marker-alt text-danger me-2"></i> İstanbul, Kadıköy</p>
+                                
+                                <p class="property-details-description">
+                                    Kadıköy'ün kalbinde, ulaşımın merkezinde modern stüdyo daire. 65m² kullanım alanıyla genç profesyoneller ve yatırımcılar 
+                                    için ideal bir seçenek. Tam donanımlı mutfak, ferah yaşam alanı ve şık banyosuyla dikkat çeken bu daire, merkezi 
+                                    konumuyla iş ve sosyal hayatı kolaylaştırmaktadır.
+                                    <br><br>
+                                    Binada güvenlik, asansör ve ortak kullanım alanları bulunmaktadır. Metro, otobüs ve vapur iskelelerine yürüme 
+                                    mesafesinde olan bu daire, ulaşım kolaylığı sunmaktadır. Yatırım için değerlendirilebilecek bir fırsattır.
+                                </p>
+                                
+                                <h5 class="mt-4 mb-3">Özellikler</h5>
+                                <div class="details-features">
+                                    <div class="details-feature">
+                                        <i class="fas fa-bed"></i>
+                                        <span>1 Yatak Odası</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-bath"></i>
+                                        <span>1 Banyo</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-ruler-combined"></i>
+                                        <span>65 m²</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-building"></i>
+                                        <span>8. Kat</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-car"></i>
+                                        <span>Otopark</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-wifi"></i>
+                                        <span>Fiber İnternet</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-tshirt"></i>
+                                        <span>Çamaşırhane</span>
+                                    </div>
+                                    <div class="details-feature">
+                                        <i class="fas fa-camera"></i>
+                                        <span>Güvenlik</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="amenities-section">
+                                    <h5 class="mb-3">Konfor & Donanım</h5>
+                                    <div class="amenities-list">
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Klima</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Merkezi Isıtma</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Beyaz Eşya</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Mobilya (Opsiyonel)</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Fiber İnternet</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Uydu Yayını</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Asansör</span>
+                                        </div>
+                                        <div class="amenity-item">
+                                            <i class="fas fa-check"></i>
+                                            <span>Ortak Dinlenme Alanı</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="property-sidebar">
+                                <h4 class="sidebar-title">Danışman Bilgisi</h4>
+                                <div class="agent-card-sidebar">
+                                    <img src="resimler/pngtree-smiling-realtor-hold-house-miniature-and-key-png-image_10117516.png" class="agent-img-sidebar" alt="Danışman">
+                                    <div class="agent-info-sidebar">
+                                        <h5>Mehmet Kaya</h5>
+                                        <p>Ticari Emlak Uzmanı</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-info mb-4">
+                                    <p><i class="fas fa-phone me-2"></i> (555) 345 67 89</p>
+                                    <p><i class="fas fa-envelope me-2"></i> mehmet@eliteemlak.com</p>
+                                    <p><i class="fas fa-clock me-2"></i> 7/24 Ulaşılabilir</p>
+                                </div>
+                                
+                                <h4 class="sidebar-title">İletişim Formu</h4>
+                                <form class="contact-form">
+                                    <input type="text" class="form-control" placeholder="Adınız" required>
+                                    <input type="email" class="form-control" placeholder="E-posta Adresiniz" required>
+                                    <input type="tel" class="form-control" placeholder="Telefon Numaranız">
+                                    <textarea class="form-control" rows="3" placeholder="Mesajınız"></textarea>
+                                    <button type="submit" class="btn btn-primary w-100">Mesaj Gönder</button>
+                                </form>
+                                
+                                <div class="mt-4">
+                                    <h5 class="sidebar-title">Finansman Seçenekleri</h5>
+                                    <div class="finance-options">
+                                        <div class="finance-item mb-2">
+                                            <span class="d-block fw-bold">Peşin Fiyat:</span>
+                                            <span>1.850.000 ₺</span>
+                                        </div>
+                                        <div class="finance-item mb-2">
+                                            <span class="d-block fw-bold">Kredi Seçenekleri:</span>
+                                            <span>%80 Kredi Desteği</span>
+                                        </div>
+                                        <div class="finance-item">
+                                            <span class="d-block fw-bold">Takas:</span>
+                                            <span>Mümkün</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animasyon -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Özel JS -->
+    <script src="Untitled-1.js"></script>
+</body>
+</html>
