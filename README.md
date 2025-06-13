@@ -64,8 +64,3 @@ Elite Emlak, kullanıcıların hayal ettikleri mülkleri kolayca bulmalarını s
    - Projeyi bir tarayıcıda açmak için `index.html` dosyasını çalıştırın.
 
 ---
-
-
----
-
-Elite Emlak ile hayalinizdeki mülkü bulmak artık çok kolay! 🌟
