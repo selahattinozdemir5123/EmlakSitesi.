@@ -65,13 +65,6 @@ Elite Emlak, kullanıcıların hayal ettikleri mülkleri kolayca bulmalarını s
 
 ---
 
-## Katkıda Bulunun
-Projeye katkıda bulunmak isterseniz, lütfen bir **pull request** gönderin veya bir **issue** açarak önerilerinizi paylaşın.
-
----
-
-## Lisans
-Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
 
 ---
 
